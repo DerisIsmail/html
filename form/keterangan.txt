@@ -1,0 +1,21 @@
+### Element pada <form></form>
+
+1. input ---> element ini digunakan untuk users yang klik bisa menginputkan sesuatu
+-----------tag input-----------
+    <input type="">
+-----------atribut input-----------
+    * text
+    * password
+    * radio
+    * checkbox
+-----------3 atribut ini berupa tombol-----------
+    * submit = untuk mengirimkan data
+    * reset = untuk menghapus data
+    * button = jika mau kasih fungsi spesifik untuk sebuah button
+
+
+
+2. textarea ---> element ini digunakan untuk mengisikan komentar dll yang jumlah huruf atau katanya lebih banyak
+3. select ---> element ini digunakan untuk membuat dropdown atau combobox
+4. button ---> element ini dipresentasikan sebagai tombol untuk mengirimkan data yang diinput oleh user
+5. label ---> element ini untuk menandai sebuah input

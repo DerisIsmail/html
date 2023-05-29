@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar | Form</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .size {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75%;
+        width: auto;
+      }
+      .judul {
+        text-align: end;
+      }
+      .judul2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table cellspacing="0" cellpadding="10" border="1">
+        <tr>
+          <td colspan="2" class="judul2" style="background: rgb(22, 111, 117); color: white">BELAJAR FORM</td>
+        </tr>
+        <tr>
+          <td class="judul">
+            <label for="username">Text :</label>
+          </td>
+          <td>
+            <input type="text" id="username" />
+          </td>
+        </tr>
+        <tr>
+          <td class="judul"><label for="password">Password :</label></td>
+          <td><input type="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="judul2"><input type="radio" id="radio1" name="radioButton" /> <label for="radio1">Radio 1</label> <input type="radio" id="radio2" name="radioButton" /> <label for="radio2">Radio 2</label></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="judul2"><input type="checkbox" id="checkbox1" /> <label for="checkbox1">checkbox 1</label> <input type="checkbox" id="checkbox2" /> <label for="checkbox2">checkbox 1</label></td>
+        </tr>
+        <tr>
+          <td class="judul">Combo Box :</td>
+          <td>
+            <select name="" id="">
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="judul">Textarea</td>
+          <td><textarea name="" id="" cols="21" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="judul2"><button type="submit">Button</button></td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- <form>
+      <label for="username">Text :</label>
+      <input type="text" id="username" />
+      <br />
+      <label for="password">Password :</label>
+      <input type="password" id="password" />
+      <br />
+      <input type="radio" id="pria" name="jeniskelamin" />
+      <label for="pria">Radio 1</label>
+      <input type="radio" id="wanita" name="jeniskelamin" />
+      <label for="wanita">Radio 2</label>
+      <br />
+      <input type="checkbox" id="menyanyi" />
+      <label for="menyanyi">checkbox 1</label>
+      <input type="checkbox" id="berenang" />
+      <label for="berenang">checkbox 1</label>
+      <br />
+      <select name="" id="">
+        <option value="">Pangandaran</option>
+        <option value="">Tasikmalaya</option>
+        <option value="">Ciamis</option>
+      </select>
+      <br />
+      <textarea></textarea>
+      <br />
+      <button type="submit">Button</button>
+    </form> -->
+  </body>
+</html>
